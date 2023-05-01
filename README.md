@@ -140,5 +140,5 @@ site tela pequena
 
 link
 
-[Texto do link](https://orange-hands.surge.sh/)
+[link do site](https://orange-hands.surge.sh/)
 
