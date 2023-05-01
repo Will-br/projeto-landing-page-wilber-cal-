@@ -130,3 +130,14 @@ A sua Landing Page deve conter:
 4.  Abra um novo Pull Request (PR) com a frase **PR para correção**. Caso não saiba como fazê-lo, assista a esse [vídeo](https://www.canva.com/design/DAFY4nS5W2c/t92uFMR61YtmA7bCwj2S1Q/watch).
 5.  Envie o link do seu PR e do surge no [formulário de entrega](https://forms.gle/nrh5KpDhAMwXBjC29).
 
+site tela grande
+
+![Captura da Web_1-5-2023_62633_127 0 0 1](https://user-images.githubusercontent.com/76233052/235435905-2ef392a3-e5d9-42b1-8ae3-6f1d3fb43039.jpeg)
+
+site tela pequena
+
+![Captura da Web_1-5-2023_62714_127 0 0 1](https://user-images.githubusercontent.com/76233052/235435907-43ccd3cc-e04f-48f5-b151-ace62798c1ea.jpeg)
+
+link
+
+orange-hands.surge.sh
