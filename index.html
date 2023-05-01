@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="src/image (2).png" alt="Logo da Empresa">
+        </div>
+        <div class="header-contact">
+            <p>Entre em contato: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+        </div>
+    </header>
+
+    <main>
+        <section id="quem-somos">
+            <div class="container">
+                <h2>Quem Somos</h2>
+                <p>A 4Cars tem como proposta oferecer carros para serem alugados por motoristas a um custo razoável, aumentando a oportunidade para quem não têm dinheiro para comprar um carro. Acreditamos que todos merecem ter a oportunidade de trabalhar como motorista de aplicativo, independente da situação financeira.</p>
+
+                    <p>Nosso objetivo é fornecer aos motoristas o melhor serviço possível, oferecendo uma frota de carros novos e bem cuidados, com manutenção regular e seguro para tranquilidade do cliente. Além disso, oferecemos suporte 24 horas por dia, sete dias por semana, garantindo que nossos clientes possam trabalhar com tranquilidade e segurança.</p>
+                    
+                    <p>Na 4Cars, também estamos sempre buscando maneiras de melhorar nossos serviços e oferecer aos nossos clientes a melhor experiência possível. Por isso, estamos sempre atualizando nossa frota de carros e trabalhando em parceria com empresas do setor para oferecer as melhores soluções em tecnologia.</p>
+                    
+                    <p>Acreditamos que a 4Cars tem um papel importante no mercado, oferecendo aos motoristas de aplicativo a oportunidade de trabalhar sem ter que investir em um carro próprio, o que pode ser um grande obstáculo para muitas pessoas. Estamos orgulhosos de fazer parte dessa mudança e de ajudar a criar uma comunidade de motoristas de aplicativo mais forte e inclusiva.</p>
+            </div>
+        </section>
+        <section id="produtos">
+            <div class="container">
+              <h2 class="section-title">Produtos</h2>
+              <div class="card">
+                <a href="produto1.html">
+                  <img src="src/20190801_rsvelocitta_0021-e1623182841670.webp" alt="Produto 1" class="card-image">
+                </a>
+                <div class="card-content">
+                  <h3 class="card-title">Renault Sandero R.S.</h3>
+                  <p class="card-description">O Sandero R.S. é o novo topo de gama da família. De fábrica, ela já vem completo incluindo ar-condicionado automático, vidros elétricos dianteiros e traseiros.</p>
+                  <button class="card-button">Alugue</button>
+                </div>
+              </div>
+              <div class="card">
+                <a href="produto2.html">
+                  <img src="src/Volkswagen-Jetta-GLI-19_edited-750x450.jpg" alt="Produto 2" class="card-image">
+                </a>
+                <div class="card-content">
+                  <h3 class="card-title">Volkswagen Jetta</h3>
+                  <p class="card-description">O Volkswagen Jetta impressiona por seu design, tecnologia e potência. Deixe o Jetta mexer com os seus sentidos enquanto você dirige e de quem o vê passar.</p>
+                  <button class="card-button">Alugue</button>
+                </div>
+              </div>
+              <div class="card">
+                <a href="produto3.html">
+                  <img src="src/Mitsubishi_LANCER_EVOLUTION_X_(CZ4A)_front.jpg" alt="Produto 3" class="card-image">
+                </a>
+                <div class="card-content">
+                  <h3 class="card-title">Mitsubishi Lancer Evolution X</h3>
+                  <p class="card-description">O Mitsubishi Lancer Evolution X é a décima e última geração do Lancer Evolution, um sedã esportivo produzido pela fabricante japonesa Mitsubishi Motors.</p>
+                  <button class="card-button">Alugue</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+        <section id="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                      <label for="name">Nome:</label>
+                      <input type="text" id="name" name="name" required>
+                      <div class="error" id="name-error"></div>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">E-mail:</label>
+                      <input type="email" id="email" name="email" required>
+                      <div class="error" id="email-error"></div>
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Mensagem:</label>
+                      <textarea id="message" name="message" rows="5" required></textarea>
+                      <div class="error" id="message-error"></div>
+                    </div>
+                    <button type="submit">Enviar</button>
+                  </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="src/image (2).png" alt="Logo da Empresa">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Termos de uso</a></li>
+                    <li><a href="#">Política de privacidade</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook">facebook</i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter">twitter</i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram">instagram</i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>Todos os direitos reservados &copy; 2023</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
